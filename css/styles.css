@@ -174,7 +174,7 @@ display: flex;
 /*=====================DESCRIPTION========================*/
 .list-solution {
     font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
     font-weight:var(--primari-font-weight);
     color: #2E2F42;
@@ -376,7 +376,6 @@ border-bottom: 1px solid #E7E9FC;
 
 .con-app-color {
     display: block;
-    background-color: var(--text-color-logo);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -390,7 +389,28 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     padding-top: 96px;
     padding-bottom: 120px;
 }
-
+.list-link-wrapper {
+    position: relative;
+    display: block;
+}
+.over-lay {
+    position: absolute;  
+    left: 0;
+    right: 0;
+width: auto;
+height: 260px;
+padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 32px;
+    padding-left: 32px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+    background-color: rgb(46, 209, 171, 0.7);
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
