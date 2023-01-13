@@ -35,7 +35,7 @@
           <section class="main-head hero-position">
             <div class="main-head-position ">
             <h1 class="hero color-fourth ">Effective Solutions for Your Business</h1>
-            <button class="btn-range  btn color-fourth " type="button ">Order Service</button>
+            <button class="btn-range  btn color-fourth " type="button " data-modal-open>Order Service</button>
         </div>
           </section>
           <!--description-->
@@ -384,5 +384,16 @@
             </div>
         </div>
       </footer>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button_roll" class="modal-close" data-modal-close>
+            <svg class="modal-button" width="8" height="8">
+              <use href="./for_sprite/vector.svg"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <script src="./js/modal.js"></script>
+  </body>
 </html>
 
